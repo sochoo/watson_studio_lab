@@ -1,0 +1,68 @@
+[1mdiff --cc assets/notebooks/Notebook1.ipynb[m
+[1mindex f9d4ab7,c6e1783..0000000[m
+[1m--- a/assets/notebooks/Notebook1.ipynb[m
+[1m+++ b/assets/notebooks/Notebook1.ipynb[m
+[36m@@@ -3,7 -3,7 +3,7 @@@[m
+    {[m
+     "cell_type": "code",[m
+     "execution_count": 1,[m
+[31m-    "id": "german-comment",[m
+[31m -   "id": "interested-conflict",[m
+[32m++   "id": "chief-stranger",[m
+     "metadata": {[m
+      "id": "5f939088-c5c7-4bc2-97a6-fc03430d0806",[m
+      "tags": [][m
+[36m@@@ -21,17 -21,17 +21,53 @@@[m
+      "print(\"hello world!\")"[m
+     ][m
+    },[m
+[32m++  {[m
+[32m++   "cell_type": "markdown",[m
+[32m++   "id": "pregnant-winner",[m
+[32m++   "metadata": {},[m
+[32m++   "source": [[m
+[32m++    "<span style=\"color:red\">**<<<<<<< local**</span>"[m
+[32m++   ][m
+[32m++  },[m
+[32m +  {[m
+[32m +   "cell_type": "code",[m
+[32m +   "execution_count": null,[m
+[32m +   "id": "indie-sample",[m
+[32m +   "metadata": {[m
+[32m +    "id": "913b1b01-1870-4c6b-a7b3-8ddec4f595c7"[m
+[32m +   },[m
+[32m +   "outputs": [],[m
+[32m +   "source": [[m
+[32m +    "print(\"User 1 makes a change without pulling the latest version\")"[m
+[32m +   ][m
+[32m++  },[m
+[32m++  {[m
+[32m++   "cell_type": "markdown",[m
+[32m++   "id": "transsexual-designation",[m
+[32m++   "metadata": {},[m
+[32m++   "source": [[m
+[32m++    "<span style=\"color:red\">**=======**</span>"[m
+[32m++   ][m
+[32m++  },[m
+[32m+   {[m
+[32m+    "cell_type": "code",[m
+[32m+    "execution_count": null,[m
+[32m+    "id": "varying-wisdom",[m
+[32m+    "metadata": {[m
+[32m+     "id": "913b1b01-1870-4c6b-a7b3-8ddec4f595c7"[m
+[32m+    },[m
+[32m+    "outputs": [],[m
+[32m+    "source": [[m
+[32m+     "print(\"hello again\")"[m
+[32m+    ][m
+[32m++  },[m
+[32m++  {[m
+[32m++   "cell_type": "markdown",[m
+[32m++   "id": "fifth-indie",[m
+[32m++   "metadata": {},[m
+[32m++   "source": [[m
+[32m++    "<span style=\"color:red\">**>>>>>>> remote**</span>"[m
+[32m++   ][m
+    }[m
+   ],[m
+   "metadata": {[m
