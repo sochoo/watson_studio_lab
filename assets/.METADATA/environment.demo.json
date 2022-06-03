@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "name": "demo",
+    "description": "",
+    "origin_country": "US",
+    "tags": [
+      "dsx"
+    ],
+    "asset_type": "environment",
+    "rov": {
+      "mode": 0
+    },
+    "asset_category": "USER",
+    "created_at": "2022-04-27T18:26:34Z",
+    "created": 1651083994492,
+    "asset_id": "environment.demo",
+    "asset_attributes": [
+      "environment"
+    ]
+  },
+  "entity": {
+    "environment": {
+      "sub_type": "notebook",
+      "display_name": "demo",
+      "hardware_specification": {
+        "type": "referenced",
+        "guid": "hardware_specification.demo"
+      },
+      "software_specification": {
+        "type": "referenced",
+        "guid": "ab9e1b80-f2ce-592c-a7d2-4f2344f77194"
+      },
+      "tools_specification": {
+        "supported_kernels": [
+          {
+            "name": "python38",
+            "language": "python",
+            "version": "3.8",
+            "display_name": "Python 3.8"
+          }
+        ]
+      },
+      "runtime_definition": "jupyter-py38"
+    }
+  },
+  "attachments": []
+}

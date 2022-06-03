@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "name": "CustomerChurn_SV",
+    "asset_type": "data_asset",
+    "description": "",
+    "origin_country": "none",
+    "tags": [
+      "connected-data"
+    ],
+    "asset_category": "USER",
+    "created_at": "2022-04-14T14:33:52Z",
+    "created": 1649946832084,
+    "asset_id": "data_asset.CustomerChurnSV",
+    "asset_attributes": [
+      "data_asset"
+    ]
+  },
+  "entity": {
+    "data_asset": {
+      "dataset": true,
+      "mime_type": "text/csv",
+      "columns": [
+        {
+          "name": "Gender",
+          "type": {
+            "type": "varchar",
+            "length": 1024,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "Status",
+          "type": {
+            "type": "varchar",
+            "length": 1024,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "Children",
+          "type": {
+            "type": "varchar",
+            "length": 1024,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "Est Income",
+          "type": {
+            "type": "varchar",
+            "length": 1024,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "Car Owner",
+          "type": {
+            "type": "varchar",
+            "length": 1024,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "Age",
+          "type": {
+            "type": "varchar",
+            "length": 1024,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "AvgMonthlySpend",
+          "type": {
+            "type": "varchar",
+            "length": 1024,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "CustomerSupportCalls",
+          "type": {
+            "type": "varchar",
+            "length": 1024,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "Paymethod",
+          "type": {
+            "type": "varchar",
+            "length": 1024,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "MembershipPlan",
+          "type": {
+            "type": "varchar",
+            "length": 1024,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "CHURN",
+          "type": {
+            "type": "varchar",
+            "length": 1024,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        }
+      ]
+    }
+  },
+  "attachments": [
+    {
+      "asset_type": "data_asset",
+      "name": "customer_churn.csv",
+      "description": "remote",
+      "connection_id": "connection.TestSharedVolumeJL",
+      "connection_path": "/customer_churn.csv",
+      "is_partitioned": false,
+      "mime": "text/csv",
+      "created_at": "2022-04-14T14:33:52Z",
+      "id": "3127f1d2-b032-459c-9566-a34e42968fe4",
+      "is_managed": false,
+      "is_referenced": false,
+      "is_remote": true
+    }
+  ]
+}
